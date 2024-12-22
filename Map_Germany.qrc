@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Germany_map">
+        <file>NicePng_germany-png_8664209.png</file>
+        <file>866-8664209_leer-deutschland-karte.png</file>
+        <file>icons8-curseur-24.png</file>
+    </qresource>
+</RCC>

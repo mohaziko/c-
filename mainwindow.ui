@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1123</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="Centralwidget">
+   <widget class="QPushButton" name="pushButton_Verschieben">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>620</y>
+      <width>101</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Meinort Verschieben</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Mein_Ort">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>580</y>
+      <width>87</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Mein Ort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_information">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>470</y>
+      <width>112</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Information</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_alle_orten">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>520</y>
+      <width>102</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alle Orten </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Entfernung">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>420</y>
+      <width>105</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Entfernung</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_btnBeenden_">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>660</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>beenden</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ortLoschen">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>660</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ort Löschen</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_routing">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>630</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Routing</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1123</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="action_1_Ort_Anlegen"/>
+    <addaction name="action_2_Laden"/>
+    <addaction name="action_3_Speichern"/>
+    <addaction name="actionbeenden"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="action_1_Ort_Anlegen">
+   <property name="text">
+    <string>(1) Ort Anlegen</string>
+   </property>
+  </action>
+  <action name="action_2_Laden">
+   <property name="text">
+    <string>(2) Laden</string>
+   </property>
+  </action>
+  <action name="action_3_Speichern">
+   <property name="text">
+    <string>(3) Speichern</string>
+   </property>
+  </action>
+  <action name="btnBeenden_">
+   <property name="text">
+    <string>Beenden</string>
+   </property>
+  </action>
+  <action name="actionbeenden">
+   <property name="text">
+    <string>beenden</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
